@@ -1,0 +1,13 @@
+{
+  "AWSEBDockerrunVersion": "1",
+  "Image": {
+    "Name": "ghost:2.22",
+    "Update": "true"
+  },
+  "Ports": [
+    {
+      "ContainerPort": "2368"
+    }
+  ],
+  "Logging": "/var/log/ghost"
+}
